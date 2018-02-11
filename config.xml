@@ -105,10 +105,11 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <platform name="android">
-        <allow-intent href="market:*" />
+        <preference name="permissions" value="none"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+	<preference name="permissions" value="none"/>
 </widget>
