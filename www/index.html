@@ -164,13 +164,13 @@ function start() {
  	setTimeout(audio, vr)
  	function audio() {
  	if (fals == 0) {
-	 	new Audio('./res/vaxt.mp3').play()
+	 	new Audio('/android_asset/www/res/vaxt.mp3').play()
 		 	var vr1 = Math.floor(Math.random() * 500) + 1000;
 		 	console.log(vr1);
 		 	setTimeout(audio1, vr1) 
 		 	function audio1() {
 		 		if (fals == 0) {
-		 			new Audio('./res/beep.mp3').play()
+		 			new Audio('/android_asset/www/res/beep.mp3').play()
 				 	fals = 1;
 				 	$(".svet").addClass("red");
 				 	var startTime = Date.now();
